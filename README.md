@@ -77,6 +77,11 @@ Providers offering free tiers to access models via API — no local hardware req
 - [CatGPT](https://www.catgpt.cc/) — Completely free chat with multiple models, no login required.
 - [Qwen Chat (Alibaba)](https://chat.qwen.ai/) — Free access to Qwen 3.6-Plus, Qwen 3.6-Max, and other Qwen models via web chat and API. 1M token context for agentic coding.
 - [Ollama Cloud](https://ollama.com/cloud) — Free tier for running open-source models on Ollama's cloud infrastructure. Light usage included, 1 concurrent model. Same `ollama run` command as local. Zero data retention.
+- [Mistral AI (La Plateforme)](https://mistral.ai/) — Free API tier with access to Mistral Large, Mistral Nemo, Codestral and more. 1 req/s, 500k tokens/min. Requires phone verification and data usage opt-in.
+- [Cohere](https://cohere.com/) — Free evaluation API key for Command R, Command R+, Embed, and Rerank models. 20 req/min, 1,000 req/month.
+- [DeepSeek Platform](https://deepseek.com/) — Free API credits for new users (5M tokens). Access to DeepSeek V4, DeepSeek-R1, and other models. Generous free allocation.
+- [GitHub Models](https://github.com/marketplace/models) — Free tier for GitHub users. Access GPT-4o, Llama 3.3, Mistral, and more with rate-limited playground and API.
+- [Hyperbolic](https://hyperbolic.xyz/) — Open-access AI cloud with affordable inference. Free compute credits via referral program. Supports Llama, Qwen, DeepSeek, and other open models.
 
 ---
 
