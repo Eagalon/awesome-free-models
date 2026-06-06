@@ -3,7 +3,7 @@
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-June%206%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-9-blue?style=flat-square)
+![Models](https://img.shields.io/badge/Models-19-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-50%2B-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-15-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
@@ -49,6 +49,8 @@ Open-weight models released since March 2026 that you can download and run on yo
 - [Trinity (Arcee AI)](https://huggingface.co/arcee-ai) — 400B parameter enterprise model. Apache 2.0.
 - [Step 3.7 Flash (StepFun)](https://huggingface.co/stepfun-ai) — **May 2026.** Apache 2.0. Native multimodal (image+video), strong agentic performance. Efficient enough for high-end local hardware.
 - [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai) — **Apr 2026.** 1T-parameter MoE model. Modified MIT license. Exceptional coding (SWE-Bench ~54%) and multi-agent swarm orchestration.
+- [Qwen 3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) — **Apr 2026.** MoE variant with only 3B active parameters. Extremely efficient for consumer hardware. Apache 2.0.
+- [InternLM 3 (Shanghai AI Lab)](https://huggingface.co/internlm) — **Early 2026.** Strong long-context reasoning and agentic performance. Competitive in open-weight benchmarks.
 
 ---
 
@@ -142,6 +144,14 @@ Free tools that integrate AI into your development workflow.
 Specialized for code generation, completion, and analysis.
 
 - [MAI-Code-1-Flash (Microsoft)](https://huggingface.co/microsoft) — **Jun 2026.** Microsoft's open-weight coding model for lowering infrastructure costs.
+- [DeepSeek Coder](https://huggingface.co/deepseek-ai) — State-of-the-art open-weight code generation. DeepSeek's coder series leads SWE-bench. MIT license.
+- [Qwen2.5-Coder (Alibaba)](https://huggingface.co/collections/Qwen/qwen25-coder) — Highly capable code model series (1.5B–32B). Excellent balance of speed and quality. Apache 2.0.
+- [Codestral (Mistral)](https://huggingface.co/mistralai/Codestral-22B-v0.1) — Mistral's dedicated code generation model — fill-in-the-middle, completion, and instruction. [GitHub](https://github.com/mistralai/codestral)
+- [CodeGemma (Google)](https://huggingface.co/google/codegemma-7b) — Google's Gemma architecture fine-tuned for code completion and instruction. Apache 2.0.
+- [StarCoder2 (BigCode)](https://huggingface.co/bigcode/starcoder2-15b) — Transparently trained code model covering 619 languages. OpenRAIL-M license.
+- [Yi-Coder (01.AI)](https://huggingface.co/01-ai/Yi-Coder-9B-Chat) — Efficient coding model with strong long-context understanding. Yi License (Apache 2.0 compatible).
+- [Granite Code (IBM)](https://huggingface.co/ibm-granite/granite-8b-code) — IBM's enterprise-grade code model, available in multiple sizes. Apache 2.0.
+- [Phi-4-mini (Microsoft)](https://huggingface.co/microsoft/Phi-4-mini-instruct) — Lightweight model optimized for reasoning and code. Punches above its weight class. MIT license.
 
 ---
 
