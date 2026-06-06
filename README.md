@@ -143,6 +143,12 @@ Free tools that integrate AI into your development workflow.
 - [OpenCode](https://opencode.ai/) — Go-based terminal AI coding assistant. Model-neutral, supports multiple LLM providers, LSP integration, and MCP tools. [GitHub](https://github.com/opencode-ai/opencode)
 - [CodeBuff](https://www.codebuff.com/) — CLI-based AI coding assistant that understands entire codebases. Multi-agent architecture, works with any model provider through natural language instructions.
 - [Pi](https://pi.dev/) — Open-source terminal AI coding agent with a unified multi-provider API. Model-agnostic, supports OpenAI, Anthropic, Google, and any OpenAI-compatible endpoint. Extensible plugin architecture. [GitHub](https://github.com/earendil-works/pi)
+- [Cline](https://cline.bot/) — Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline)
+- [Roo Code](https://github.com/RooVetGit/Roo-Code) — Community fork of Cline with faster feature releases. Open-source VS Code agent with deep model integration.
+- [OpenHands](https://all-hands.dev/) — Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/All-Hands-AI/OpenHands)
+- [Twinny](https://github.com/twinnydotdev/twinny) — Local-first AI coding extension for VS Code. Works entirely offline with local LLMs (Ollama, llama.cpp). Zero external dependencies.
+- [Kodu (Claude Coder)](https://github.com/kodu-ai/claude-coder) — VS Code autonomous coding agent. Builds projects from scratch, handles complex tasks with natural language.
+- [Goose](https://block.github.io/goose/) — Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/block/goose)
 
 ---
 
