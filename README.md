@@ -38,7 +38,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 > 📅 Last checked: June 6, 2026
 
-Open-weight models released since March 2026 that you can download and run on your own hardware.
+Notable open-weight models you can download and run on your own hardware.
 
 - [Llama 4 Scout / Maverick](https://huggingface.co/meta-llama) — Meta's latest MoE generation. Scout: 109B, 10M context. Maverick: 402B, 1M context. Native multimodal. [[License]](https://github.com/facebookresearch/llama/blob/main/LICENSE)
 - [DeepSeek V4](https://huggingface.co/deepseek-ai) — Latest generation with extreme cost-efficiency. MIT license.
