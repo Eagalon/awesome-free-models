@@ -4,7 +4,6 @@
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
-> **Updated June 2026.** Entries older than 3 months are pruned to keep the list current.
 
 ## Contents
 
