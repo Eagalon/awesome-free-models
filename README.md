@@ -127,6 +127,8 @@ Free tools that integrate AI into your development workflow.
 - [Bolt.new (StackBlitz)](https://bolt.new/) — Free tier for AI-powered full-stack web app development in browser.
 - [Claude Code (Anthropic)](https://docs.anthropic.com/en/docs/claude-code/overview) — Free tier with limited usage for terminal-based AI coding assistant.
 - [Cursor 3](https://www.cursor.com/) — **Apr 2026.** AI-native code editor with deep model integration and agentic features. Free tier available.
+- [OpenCode](https://opencode.ai/) — Go-based terminal AI coding assistant. Model-neutral, supports multiple LLM providers, LSP integration, and MCP tools. [GitHub](https://github.com/opencode-ai/opencode)
+- [CodeBuff](https://www.codebuff.com/) — CLI-based AI coding assistant that understands entire codebases. Multi-agent architecture, works with any model provider through natural language instructions.
 
 ---
 
