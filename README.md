@@ -298,6 +298,12 @@ Tools to fine-tune free models on your own data — all free and open-source.
 | [AutoTrain (Hugging Face)](https://github.com/huggingface/autotrain-advanced) | No-code fine-tuning platform. Train models with a web UI or API. |
 | [XTuner (InternLM)](https://github.com/InternLM/xtuner) | Efficient fine-tuning toolkit supporting QLoRA, LoRA, and full fine-tune with multiple model architectures. |
 | [Ludwig (Predibase)](https://ludwig.ai/) | Declarative ML framework. Fine-tune models with a simple config file. [GitHub](https://github.com/ludwig-ai/ludwig) |
+| [PyTorch Lightning](https://lightning.ai/) | Free deep learning framework for training and fine-tuning. Simplifies distributed training, checkpointing, and logging. [GitHub](https://github.com/Lightning-AI/pytorch-lightning) |
+| [Hugging Face Accelerate](https://github.com/huggingface/accelerate) | Zero-config distributed training for PyTorch. Enables easy multi-GPU and TPU training with minimal code changes. |
+| [ColossalAI](https://github.com/hpcaitech/ColossalAI) | Open-source distributed training system with parallelism strategies. Supports large model training on limited hardware. |
+| [JAX (Google)](https://github.com/google/jax) | High-performance ML framework with automatic differentiation and JIT compilation. Powers many modern training pipelines. |
+| [Ray Train](https://github.com/ray-project/ray) | Distributed training framework built on Ray. Supports PyTorch, TensorFlow, and JAX with automatic scaling. |
+| [Determined AI](https://github.com/determined-ai/determined) | Open-source ML training platform with hyperparameter search, GPU scheduling, and experiment tracking. |
 
 ---
 
