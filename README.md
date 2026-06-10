@@ -321,6 +321,11 @@ Free tools for testing, managing, and optimizing prompts.
 | [OpenPrompt (THUNLP)](https://thunlp.github.io/OpenPrompt/) | Framework for prompt-learning research. Supports template and verbalizer design. [GitHub](https://github.com/thunlp/OpenPrompt) |
 | [DSPy (Stanford)](https://dspy.ai/) | Framework for algorithmically optimizing LM prompts and weights. [GitHub](https://github.com/stanfordnlp/dspy) |
 | [Agenta](https://agenta.ai/) | Open-source LLM platform for prompt management, evaluation, and deployment. [GitHub](https://github.com/Agenta-AI/agenta) |
+| [ChainForge](https://chainforge.ai/) | Open-source visual programming environment for prompt engineering. Test prompts across multiple LLMs, compare responses, and evaluate robustness. [GitHub](https://github.com/ianarawjo/ChainForge) |
+| [Latitude](https://latitude.so/) | Open-source prompt engineering platform with versioning, playground, evaluation, and deployment as API endpoints. [GitHub](https://github.com/latitude-dev/latitude-llm) |
+| [DeepEval](https://github.com/confident-ai/deepeval) | Open-source evaluation framework for LLM outputs. 50+ metrics, pytest integration, and CI/CD support for prompt regression testing. |
+| [PromptLayer](https://promptlayer.com/) | Prompt versioning and monitoring platform. Tracks prompt versions, cost, latency, and model behavior. Free tier with 10K calls/month. |
+| [OpenPromptHub](https://openprompthub.us/) | Community-driven prompt engineering platform. Discover, share, and contribute prompt patterns. Free and open-source. |
 
 ---
 
