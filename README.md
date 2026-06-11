@@ -422,6 +422,11 @@ Free courses, books, and tutorials for learning AI and LLMs.
 | [Hugging Face Forums](https://discuss.huggingface.co/) | Discussions on models, datasets, and Spaces. |
 | [r/MachineLearning](https://reddit.com/r/MachineLearning) | General ML/AI research and news. |
 | [Discord: AI Agents](https://discord.gg/ai-agents) | Community for AI agent development and agentic frameworks. |
+| [r/OpenAI](https://reddit.com/r/OpenAI) | Official Reddit community for OpenAI models, API discussions, and releases. |
+| [r/artificial](https://reddit.com/r/artificial) | General AI discussion covering research, news, and ethics. |
+| [OpenAI Developer Forum](https://community.openai.com/) | Official forum for OpenAI API developers. Share prompts, troubleshoot, and discuss best practices. |
+| [Nous Research Discord](https://discord.gg/jqVphNsB4H) | Community for open-source AI development, Hermes models, and decentralized training (DisTrO). |
+| [Learn AI Together Discord](https://discord.gg/learn-ai-together) | Active learning community with 10K+ members. Ask questions, find teammates, and share projects. |
 
 ---
 
