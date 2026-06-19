@@ -4,8 +4,8 @@
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-June%2019%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-38-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-213-blue?style=flat-square)
-![Sections](https://img.shields.io/badge/Sections-16-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-223-blue?style=flat-square)
+![Sections](https://img.shields.io/badge/Sections-17-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
 > ✅ All links verified live on June 19, 2026. broken links found during this check (all are removed).
@@ -29,6 +29,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 - [✨ Prompt Engineering Tools](#-prompt-engineering-tools)
 - [📊 Datasets](#-datasets)
 - [☁ Model Hosting Platforms](#-model-hosting-platforms)
+- [🏖️ Core AI Execution Sandboxes](#️-core-ai-execution-sandboxes)
 - [📚 Learning Resources](#-learning-resources)
 - [🏆 Resources & Leaderboards](#-resources--leaderboards)
 - [👥 Communities](#-communities)
@@ -397,6 +398,27 @@ Free platforms that host models — run inference without downloading anything.
 | [Beam](https://beam.cloud/) | $30/mo free credits for serverless GPU compute. Fast cold starts (<1s), auto-scaling, Python SDK. Open-source runtime. |
 | [Cerebrium](https://cerebrium.ai/) | $30 free trial credits for serverless GPU infrastructure. Sub-second cold starts, pay-per-second billing, auto-scaling. SOC 2 compliant. |
 | [Baseten](https://www.baseten.co/) | Free trial credits for serverless GPU inference. Truss open-source framework, auto-scaling, multiple GPU options (T4 to H100). |
+
+---
+
+## 🏖️ Core AI Execution Sandboxes
+
+> 📅 Last checked: June 19, 2026
+
+Free, isolated sandbox environments for executing AI agent code, running untrusted scripts, and building agent workflows — no infrastructure to manage.
+
+| Name | Description |
+|------|-------------|
+| [E2B](https://e2b.dev/) | The most popular sandbox for AI agents. **$100 free credit** (one-time), no credit card. Firecracker microVMs, 150ms cold starts, 20 concurrent sandboxes, 1-hour sessions. Python/JS SDKs. Docker MCP Catalog (200+ tools). |
+| [Novita AI Sandbox](https://novita.ai/sandbox) | **$100 free credits** (90-day validity). 5 concurrent sandboxes, 1-hour max session, 2 vCPU / 4 GB RAM. Sub-200ms startup, per-second billing. Code execution, browser automation, computer use. |
+| [Hopx](https://hopx.ai/) | **$200 free credits**, no credit card. Firecracker microVMs, ~100ms cold start. Full Linux with file/exec/PTY access. Persistent state, unlimited runtime. Python, JavaScript, Bash, Go. Per-second billing. |
+| [InstaVM](https://instavm.io/) | **$50 free credits**, no credit card. MicroVMs for AI agents with persistent state, networking, and secrets injection. Sub-200ms boot, SSH access, full Linux Desktop for browser automation. |
+| [OmniRun](https://omnirun.io/) | **25 sandbox-hours/month free**, no credit card. MicroVM isolation (own kernel per sandbox). ~250ms boot. 6 languages. Network blocked by default. Claude Managed Agents compatible. |
+| [SimpleSandbox](https://usesandbox.dev/) | **1M credits/month free** (~17 hours compute). 3 concurrent sandboxes, Firecracker microVMs, ~1s cold start. Per-second billing. 50% cheaper than E2B, no enterprise minimums. |
+| [SandboxAPI](https://sandboxapi.dev/) | **500 executions/month free**. 12 languages (Python, Node, Go, Rust, Java, etc.). gVisor isolation, streaming output, persistent sessions. MCP-native — works with Claude Desktop, Cursor, VS Code. |
+| [Tensorlake](https://www.tensorlake.ai/pricing) | **2 concurrent sandboxes free forever**. 1 core / 1 GB RAM / 10 GB disk, up to 2-hour sessions. Firecracker microVMs, SOC 2 Type 2. Unmetered sessions. |
+| [MicroSand](https://microsand.ai/) | **Free credits**, no credit card. Sub-50ms cold start, KVM hardware isolation. Python, Node.js, and custom OCI images. Persistent workspaces, snapshot/restore. Per-second billing at $0.035/vCPU-hour. |
+| [SmolVM (CelestoAI)](https://github.com/CelestoAI/SmolVM) | **Free & open-source** (Apache 2.0). Self-hostable microVM sandboxes for AI agents. Sub-second boot, hardware isolation, browser sandbox, file sharing, snapshots. Python SDK. Run Claude Code, Codex, or Pi pre-installed. |
 
 ---
 
