@@ -78,7 +78,7 @@ Providers offering free tiers to access models via API — no local hardware req
 |------|-------------|
 | [Google AI Studio](https://aistudio.google.com/) | **Most generous free tier.** Access Gemini 2.5 Flash, Gemini 2.0 Flash, and other models. Generous rate limits for prototyping. |
 | [OpenRouter](https://openrouter.ai/) | Aggregates 400+ models from 70+ providers. Filter by "Free" to see models available at no cost. Includes experimental and subsidized open-weight models. |
-| [Groq](https://console.groq.com/) | Ultra-fast inference. Free tier includes GPT-OSS 120B, GPT-OSS 20B, Llama 4 Scout, Qwen 3, Qwen 3.6 27B, Whisper Large v3, Orpheus TTS, and more with generous daily rate limits. |
+| [Groq](https://console.groq.com/) | Extremely fast inference for text, speech, and vision-based OCR. Free tier supports GPT-OSS, Llama 4, and Whisper, but is bottlenecked by low per-minute caps (30 RPM / 8K TPM), requiring a paid upgrade for production scale. |
 | [Hugging Face Inference API](https://huggingface.co/docs/inference-providers) | Free tier for thousands of community models. Rate-limited but excellent for testing. |
 | [NVIDIA NIM](https://build.nvidia.com/) | Free API access to accelerated versions of Llama, Mistral, Gemma, Nemotron 3 Ultra, and more on NVIDIA infrastructure. |
 | [Together AI](https://www.together.ai/) | Access 200+ open-source models including MiniMax M3, DeepSeek, Qwen. Free credits may be available for new accounts — check current promotions. |
