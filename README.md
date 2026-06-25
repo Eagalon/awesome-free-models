@@ -172,20 +172,21 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ## 🖥 AI CLI Tools
 
-> 📅 Last checked: June 23, 2026
+> 📅 Last checked: June 25, 2026
 
 General-purpose terminal-based AI tools — chat, summarization, file operations, and more.
 
-| Name | Description |
-|------|-------------|
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Google's open-source terminal AI agent. **1,000 requests/day free** on personal Google account. General-purpose agent for code, chat, and shell tasks. Apache 2.0. [GitHub](https://github.com/google-gemini/gemini-cli) |
-| [OpenCode](https://opencode.ai/) | Go-based terminal AI agent. Model-neutral, supports 75+ LLM providers, LSP integration, and MCP tools. Desktop app in beta. MIT. [GitHub](https://github.com/anomalyco/opencode) |
-| [Pi](https://pi.dev/) | Open-source terminal AI agent with unified multi-provider API. Model-agnostic, extensible plugin architecture. [GitHub](https://github.com/earendil-works/pi) |
-| [MiMo Code](https://mimo.xiaomi.com/mimocode) | Xiaomi's terminal AI tool with persistent memory, multi-agent orchestration, and 1M-token context. Free tier available. [GitHub](https://github.com/KoinaAI/MiMo-CLI) ⚠️ Community CLI wrapper (8 stars) — official Xiaomi repo may differ. |
-| [Hai](https://github.com/aianyai/hai) | Lightweight terminal AI agent. Run commands or ask questions. Supports OpenAI, Claude, Gemini, DeepSeek, and more. Streaming output, pipe support, predefined prompts. GPL-3.0. |
-| [Tuillem](https://github.com/seesee/tuillem) | 3-pane terminal AI chat client. Switch providers and models mid-conversation. Full markdown rendering, SQLite history with full-text search. Plugin system. |
-| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Nous Research's open-source terminal AI agent. Full TUI with slash commands, 40+ tools, persistent memory. Multi-platform gateway (Telegram, Discord, Slack). Apache 2.0. |
-| [Freebuff](https://freebuff.com/) | An AI-powered CLI, supported by ads, with multi-agent orchestration. |
+| Name | Released | Description |
+|------|----------|-------------|
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Feb 2025 | Google's open-source terminal AI agent. **1,000 requests/day free** on personal Google account. General-purpose agent for code, chat, and shell tasks. Gemini 3 models, 1M context. Apache 2.0. |
+| [OpenCode](https://opencode.ai/) | Jan 2025 | Go-based terminal AI agent. Model-neutral, supports 75+ LLM providers, LSP integration, and MCP tools. Desktop app in beta. MIT. 178k stars. |
+| [Pi](https://pi.dev/) | 2024 | Open-source terminal AI agent with unified multi-provider API. Model-agnostic, extensible plugin architecture. 65k stars. MIT. |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Feb 2026 | Nous Research's self-improving terminal AI agent. Full TUI with slash commands, 40+ tools, persistent memory. Multi-platform gateway (Telegram, Discord, Slack, WhatsApp). Closed learning loop with autonomous skill creation. Apache 2.0. 202k stars. |
+| [Goose](https://goose-docs.ai/) | 2024 | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Originally by Block, now under the Agentic AI Foundation (AAIF) at the Linux Foundation. Desktop app + CLI + API. Rust-based. Apache 2.0. 50k stars. |
+| [MiMo Code](https://mimo.xiaomi.com/mimocode) | 2026 | Xiaomi's terminal AI tool with persistent memory, multi-agent orchestration, and 1M-token context. Free tier available. Supports mimo-v2.5-pro, mimo-v2.5, mimo-v2-omni models. Web UI in alpha. |
+| [Tuillem](https://github.com/seesee/tuillem) | 2025 | 3-pane terminal AI chat client written in Rust. Switch providers and models mid-conversation. Full markdown rendering, SQLite history with FTS5 search. 10 built-in themes. Plugin system. MIT. |
+| [Hai](https://github.com/aianyai/hai) | 2025 | Lightweight terminal AI agent. Run commands or ask questions. Supports OpenAI, Claude, Gemini, DeepSeek. Agent mode with auto shell execution, pipe support, predefined prompts. GPL-3.0. |
+| [Freebuff](https://freebuff.com/) | — | An AI-powered CLI, supported by ads, with multi-agent orchestration. |
 
 ---
 
