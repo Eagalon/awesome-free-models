@@ -42,29 +42,29 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 Notable open-weight models you can download and run on your own hardware.
 
-| Name | Description |
-|------|-------------|
-| [Llama 4 Scout / Maverick](https://huggingface.co/meta-llama) | Meta's latest MoE generation. Scout: 109B, 10M context. Maverick: 402B, 1M context. Native multimodal. [[License]](https://github.com/meta-llama/llama/blob/main/LICENSE) |
-| [DeepSeek V4](https://huggingface.co/deepseek-ai) | Latest generation with extreme cost-efficiency. MIT license. |
-| [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | **Apr 2026.** Efficiency-focused variant of DeepSeek V4. 1M token context, optimized for fast inference. MIT license. |
-| [Gemma 4 31B / 26B MoE / E4B / E2B](https://huggingface.co/google) | Fully permissive Apache 2.0. 256K context, native multimodal. New standard for open-weight. |
-| [GLM-5.1 (Zhipu AI)](https://huggingface.co/zai-org) | 744B MoE model, competitive with top proprietary models. MIT license. |
-| [MiniMax M3](https://huggingface.co/MiniMaxAI) | Frontier-tier 1M context, native multimodal + computer use. MSA architecture. |
-| [Trinity (Arcee AI)](https://huggingface.co/arcee-ai) | 400B parameter enterprise model. Apache 2.0. |
-| [Step 3.7 Flash (StepFun)](https://huggingface.co/stepfun-ai) | **May 2026.** Apache 2.0. Native multimodal (image+video), strong agentic performance. Efficient enough for high-end local hardware. |
-| [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai) | **Apr 2026.** 1T-parameter MoE model. Modified MIT license. Exceptional coding (SWE-Bench ~54%) and multi-agent swarm orchestration. |
-| [Qwen 3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) | **Apr 2026.** MoE variant with only 3B active parameters. Extremely efficient for consumer hardware. Apache 2.0. |
-| [InternLM 3 (Shanghai AI Lab)](https://huggingface.co/internlm) | **Early 2026.** Strong long-context reasoning and agentic performance. Competitive in open-weight benchmarks. |
-| [MiMo-V2.5-Pro (Xiaomi)](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro) | **Apr 2026.** 1.02T-parameter MoE (42B active). Optimized for complex agentic tasks, coding, and long-context. |
-| [Bonsai 8B (PrismML)](https://huggingface.co/prism-ml/Bonsai-8B-gguf) | **Apr 2026.** Groundbreaking 1-bit quantized model. Extremely efficient for edge and consumer hardware (Apple Silicon). |
-| [Mistral Small 3.1 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503) | **Mar 2025.** Versatile 24B multimodal model. Strong text performance with native image understanding and 128K context. Apache 2.0. |
-| [Mistral Small 4 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | **Mar 2026.** Hybrid MoE (6.5B active params) unifying instruction, reasoning, and multimodal capabilities. Efficient frontier-class model. Apache 2.0. |
-| [Command A+ (Cohere)](https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4) | **May 2026.** Enterprise multimodal MoE optimized for sovereignty and multilingual RAG across 48 languages. Apache 2.0. |
-| [Hermes 4 (NousResearch)](https://huggingface.co/NousResearch/Hermes-4-70B) | **Feb 2026.** Self-improving agentic model with closed-loop learning. Curates own memory and builds skills from experience. Apache 2.0. |
-| [Snowflake Arctic](https://huggingface.co/Snowflake/arctic) | **Apr 2024.** Enterprise MoE model balancing high-quality performance with efficient training costs. Optimized for complex data operations. Apache 2.0. |
-| [Falcon 3 (TII)](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) | **Dec 2024.** Compact high-performance model with strong reasoning. Designed for efficient deployment on resource-constrained hardware. TII Falcon-LLM License 2.0. |
-| [Apple OpenELM](https://huggingface.co/Apple/OpenELM-3B) | **Apr 2024.** Family of efficient on-device SLMs using layer-wise attention scaling. Runs locally on Apple Silicon with full privacy. Apple Sample Code License. |
-| [Nemotron 3 Ultra (NVIDIA)](https://huggingface.co/nvidia) | **Jun 2026.** 550B MoE (55B active). Hybrid Mamba-Transformer, NVFP4 quantization. Optimized for agentic workflows. Fully open (weights, data, recipes). OpenMDW-1.1 license. |
+| Name | Released | Description |
+|------|----------|-------------|
+| [Llama 4 Scout / Maverick](https://huggingface.co/meta-llama) | — | Meta's latest MoE generation. Scout: 109B, 10M context. Maverick: 402B, 1M context. Native multimodal. [[License]](https://github.com/meta-llama/llama/blob/main/LICENSE) |
+| [DeepSeek V4](https://huggingface.co/deepseek-ai) | — | Latest generation with extreme cost-efficiency. MIT license. |
+| [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) | Apr 2026 | Efficiency-focused variant of DeepSeek V4. 1M token context, optimized for fast inference. MIT license. |
+| [Gemma 4 31B / 26B MoE / E4B / E2B](https://huggingface.co/google) | — | Fully permissive Apache 2.0. 256K context, native multimodal. New standard for open-weight. |
+| [GLM-5.1 (Zhipu AI)](https://huggingface.co/zai-org) | — | 744B MoE model, competitive with top proprietary models. MIT license. |
+| [MiniMax M3](https://huggingface.co/MiniMaxAI) | — | Frontier-tier 1M context, native multimodal + computer use. MSA architecture. |
+| [Trinity (Arcee AI)](https://huggingface.co/arcee-ai) | — | 400B parameter enterprise model. Apache 2.0. |
+| [Step 3.7 Flash (StepFun)](https://huggingface.co/stepfun-ai) | May 2026 | Apache 2.0. Native multimodal (image+video), strong agentic performance. Efficient enough for high-end local hardware. |
+| [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai) | Apr 2026 | 1T-parameter MoE model. Modified MIT license. Exceptional coding (SWE-Bench ~54%) and multi-agent swarm orchestration. |
+| [Qwen 3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) | Apr 2026 | MoE variant with only 3B active parameters. Extremely efficient for consumer hardware. Apache 2.0. |
+| [InternLM 3 (Shanghai AI Lab)](https://huggingface.co/internlm) | Early 2026 | Strong long-context reasoning and agentic performance. Competitive in open-weight benchmarks. |
+| [MiMo-V2.5-Pro (Xiaomi)](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro) | Apr 2026 | 1.02T-parameter MoE (42B active). Optimized for complex agentic tasks, coding, and long-context. |
+| [Bonsai 8B (PrismML)](https://huggingface.co/prism-ml/Bonsai-8B-gguf) | Apr 2026 | Groundbreaking 1-bit quantized model. Extremely efficient for edge and consumer hardware (Apple Silicon). |
+| [Mistral Small 3.1 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503) | Mar 2025 | Versatile 24B multimodal model. Strong text performance with native image understanding and 128K context. Apache 2.0. |
+| [Mistral Small 4 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) | Mar 2026 | Hybrid MoE (6.5B active params) unifying instruction, reasoning, and multimodal capabilities. Efficient frontier-class model. Apache 2.0. |
+| [Command A+ (Cohere)](https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4) | May 2026 | Enterprise multimodal MoE optimized for sovereignty and multilingual RAG across 48 languages. Apache 2.0. |
+| [Hermes 4 (NousResearch)](https://huggingface.co/NousResearch/Hermes-4-70B) | Feb 2026 | Self-improving agentic model with closed-loop learning. Curates own memory and builds skills from experience. Apache 2.0. |
+| [Snowflake Arctic](https://huggingface.co/Snowflake/arctic) | Apr 2024 | Enterprise MoE model balancing high-quality performance with efficient training costs. Optimized for complex data operations. Apache 2.0. |
+| [Falcon 3 (TII)](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) | Dec 2024 | Compact high-performance model with strong reasoning. Designed for efficient deployment on resource-constrained hardware. TII Falcon-LLM License 2.0. |
+| [Apple OpenELM](https://huggingface.co/Apple/OpenELM-3B) | Apr 2024 | Family of efficient on-device SLMs using layer-wise attention scaling. Runs locally on Apple Silicon with full privacy. Apple Sample Code License. |
+| [Nemotron 3 Ultra (NVIDIA)](https://huggingface.co/nvidia) | Jun 2026 | 550B MoE (55B active). Hybrid Mamba-Transformer, NVFP4 quantization. Optimized for agentic workflows. Fully open (weights, data, recipes). OpenMDW-1.1 license. |
 
 ---
 
