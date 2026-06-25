@@ -178,10 +178,12 @@ General-purpose terminal-based AI tools — chat, summarization, file operations
 
 | Name | Released | Description |
 |------|----------|-------------|
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Feb 2025 | Google's open-source terminal AI agent. **1,000 requests/day free** on personal Google account. General-purpose agent for code, chat, and shell tasks. Gemini 3 models, 1M context. Apache 2.0. |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Feb 2025 | Google's open-source terminal AI agent. **1,000 requests/day free** on personal Google account. General-purpose agent for code, chat, and shell tasks. Gemini 3 models, 1M context. Apache 2.0. 106k stars. |
+| [Codex](https://github.com/openai/codex) | May 2025 | OpenAI's lightweight coding agent. Rust-based with OS-level sandboxing (macOS Seatbelt, Linux Landlock). AGENTS.md support, image input, subagents, MCP. Apache 2.0. 93k stars. |
 | [OpenCode](https://opencode.ai/) | Jan 2025 | Go-based terminal AI agent. Model-neutral, supports 75+ LLM providers, LSP integration, and MCP tools. Desktop app in beta. MIT. 178k stars. |
 | [Pi](https://pi.dev/) | 2024 | Open-source terminal AI agent with unified multi-provider API. Model-agnostic, extensible plugin architecture. 65k stars. MIT. |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Feb 2026 | Nous Research's self-improving terminal AI agent. Full TUI with slash commands, 40+ tools, persistent memory. Multi-platform gateway (Telegram, Discord, Slack, WhatsApp). Closed learning loop with autonomous skill creation. Apache 2.0. 202k stars. |
+| [Vibe CLI](https://github.com/mistralai/mistral-vibe) | 2025 | Mistral's open-source CLI coding agent. Free tier with Mistral Experiment tier (no credit card). Conversational iterative workflow. AGENTS.md support, skills system, voice mode, MCP. Apache 2.0. 4.6k stars. |
 | [Goose](https://goose-docs.ai/) | 2024 | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Originally by Block, now under the Agentic AI Foundation (AAIF) at the Linux Foundation. Desktop app + CLI + API. Rust-based. Apache 2.0. 50k stars. |
 | [MiMo Code](https://mimo.xiaomi.com/mimocode) | 2026 | Xiaomi's terminal AI tool with persistent memory, multi-agent orchestration, and 1M-token context. Free tier available. Supports mimo-v2.5-pro, mimo-v2.5, mimo-v2-omni models. Web UI in alpha. |
 | [Tuillem](https://github.com/seesee/tuillem) | 2025 | 3-pane terminal AI chat client written in Rust. Switch providers and models mid-conversation. Full markdown rendering, SQLite history with FTS5 search. 10 built-in themes. Plugin system. MIT. |
