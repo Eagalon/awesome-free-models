@@ -2,13 +2,13 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Checked-June%2023%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Checked-June%2026%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-36-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-216-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-17-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on June 23, 2026. ~300 URLs checked. 0 broken links, 2 archived repos, 1 GitHub org rename (OpenCode → anomalyco), 3 inaccurate descriptions fixed, 5 unmaintained projects flagged, 2 pricing changes (Fireworks, Tensorlake).
+> ✅ All links verified live on June 26, 2026. ~309 URLs checked. 4 sites with auth walls (Poe, OpenAI, xAI, Milvus), 2 archived repos, 1 GitHub org rename (OpenCode → anomalyco), 1 acquisition (Continue.dev → Cursor), 3 inaccurate descriptions fixed, 12 unmaintained projects flagged, 2 pricing changes (Fireworks, Tensorlake).
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -86,11 +86,11 @@ Providers offering free tiers to access models via API — no local hardware req
 | [SiliconFlow](https://siliconflow.cn/) | Rising platform with free access to many open-source models. |
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Free tier for running 50+ open-source models at the edge on Cloudflare's global network. Pay-for-what-you-use pricing. |
 | [Replicate](https://replicate.com/) | Free tier with limited credits for running open-source models. Pay-per-second for GPU usage. |
-| [Poe (Quora)](https://poe.com/) | Free tier with daily credits for GPT-4 mini, Claude instant, and community bots. |
+| [Poe (Quora)](https://poe.com/) | ⚠️ **Requires login to access.** Free tier with daily credits for GPT-4 mini, Claude instant, and community bots. |
 | [Cerebras](https://cloud.cerebras.ai/) | **1M tokens/day free**, no credit card. Ultra-fast inference on WSE chips. Access Llama 3.3 70B, GPT-OSS 120B, Qwen 3, and more via OpenAI-compatible API. |
 | [Qwen Chat (Alibaba)](https://chat.qwen.ai/) | Free access to Qwen 3.7-Plus, Qwen 3.6-Max, and other Qwen models via web chat and API. |
 | [Ollama Cloud](https://ollama.com/pricing) | Free tier for running open-source models on Ollama's cloud infrastructure. Light usage included, 1 concurrent model. Pro ($20/mo) and Max ($100/mo) tiers available. Zero data retention. |
-| [OpenAI API](https://platform.openai.com/) | **~$5 trial credits** for new API accounts. Access GPT-5, GPT-4o, o4-mini, and more. Rate-limited free tier available after credits expire. |
+| [OpenAI API](https://platform.openai.com/) | ⚠️ **Requires account login.** ~$5 trial credits for new API accounts. Access GPT-5, GPT-4o, o4-mini, and more. Rate-limited free tier available after credits expire. |
 | [Mistral AI (Vibe)](https://mistral.ai/) | ⚠️ **Pivoted to Vibe (consumer AI agent).** Free tier for Vibe chat agent with limited messages. API access via Studio — enterprise pricing, contact sales. New models: Mistral OCR 4, Mistral Medium 3.5. |
 | [Model Router](https://api.lxg2it.com/) | Free API with intent-based routing across Groq and Cerebras models (Llama 4 Scout, DeepSeek, Qwen, Nemotron) — no credit card, no trial credits. Set `prefer=cheap|fast|quality|coding` instead of model names. Drop-in OpenAI replacement with auto failover. |
 | [Cohere](https://cohere.com/) | Free trial API key for Command A+, North Mini Code, Transcribe, Embed 4, Rerank 4, and Aya models. Rate-limited, not for production. |
@@ -106,7 +106,7 @@ Providers offering free tiers to access models via API — no local hardware req
 | [AI21 Labs](https://www.ai21.com/) | ⚠️ **Enterprise-focused.** Maestro framework and Jamba models. No clear free tier visible — contact sales. |
 | [Amazon Bedrock](https://aws.amazon.com/bedrock/) | **$200 AWS credits** for new customers. Access to Llama, Mistral, Claude, Titan, and other foundation models via API. |
 | [Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-foundry/) | **$200 free trial credits** (30 days). Access GPT-4o, Llama, Mistral, Phi, and other models via Azure's unified AI platform. |
-| [xAI (Grok)](https://console.x.ai/) | **$25 sign-up credits** + **$150/month** with data-sharing program. Access Grok-3, Grok-3 Mini via API. No credit card required. ⚠️ Console may require alternate access. |
+| [xAI (Grok)](https://console.x.ai/) | ⚠️ **Console requires login.** $25 sign-up credits + $150/month with data-sharing program. Access Grok-3, Grok-3 Mini via API. No credit card required. |
 | [ZeroLimitAI](https://www.zerolimitai.com/developers) | Free API with auto model routing to the best available free model (Gemini 2.5 Flash, Llama 4, DeepSeek R1). No credit card, drop-in OpenAI replacement. Paid plans from $49 one-time. |
 | [Stability AI](https://platform.stability.ai/) | Free API credits for image generation with Stable Diffusion and Stable Video models. Rate-limited access without credit card. |
 | [Eden AI](https://www.edenai.co/) | Free tier aggregating 500+ models from multiple providers via a single API key. Unified interface for text, image, and code generation. GDPR-compliant EU endpoint available. |
@@ -129,7 +129,7 @@ Run models on your own machine — no API keys needed, full privacy.
 | [LM Studio](https://lmstudio.ai/) | Polished desktop GUI. Browse, download, and chat with models. Built-in model browser and local API server. |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | High-performance C++ inference engine. Runs on CPU and GPU. Supports GGUF quantization. Powers most other local tools. |
 | [Jan](https://jan.ai/) | Open-source ChatGPT alternative for desktop. Built-in model downloader, local API server. [GitHub](https://github.com/janhq/jan) |
-| [GPT4All](https://www.nomic.ai/gpt4all) | Privacy-focused local chatbot. Runs on consumer hardware. Built-in model browser. [GitHub](https://github.com/nomic-ai/gpt4all) |
+| [GPT4All](https://www.nomic.ai/gpt4all) | ⚠️ **Unmaintained since May 2025.** Privacy-focused local chatbot. Runs on consumer hardware. Built-in model browser. [GitHub](https://github.com/nomic-ai/gpt4all) |
 | [text-generation-webui (Oobabooga)](https://github.com/oobabooga/textgen) | Feature-rich web UI. Supports multiple backends (Transformers, llama.cpp, ExLlama, AutoGPTQ). |
 | [LocalAI](https://localai.io/) | Drop-in OpenAI API replacement. Run models locally with an OpenAI-compatible API. [GitHub](https://github.com/mudler/LocalAI) |
 | [KoboldCPP](https://github.com/LostRuins/koboldcpp) | Single-file executable for running GGUF models. Focused on story generation but general-purpose. |
@@ -164,7 +164,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 | [LibreChat](https://librechat.ai/) | Open-source ChatGPT clone supporting 40+ providers, multi-user, plugins, and RAG. [GitHub](https://github.com/danny-avila/LibreChat) |
 | [AnythingLLM](https://anythingllm.com/) | All-in-one desktop app for chatting with documents and models. Built-in RAG pipeline. [GitHub](https://github.com/Mintplex-Labs/anything-llm) |
 | [Big-AGI](https://big-agi.com/) | Feature-rich AI chat with personas, multi-model support, voice, and code execution. [GitHub](https://github.com/enricoros/big-agi) |
-| [LobeChat](https://lobehub.com/) | Modern, extensible chat framework with plugin system and multi-provider support. [GitHub](https://github.com/lobehub/lobehub) |
+| [LobeChat](https://lobehub.com/) | Modern, extensible chat framework with plugin system and multi-provider support. [GitHub](https://github.com/lobehub/lobe-chat) |
 | [Chatbot UI](https://www.chatbotui.com/) | Simple, clean ChatGPT interface. Easy to self-host with any OpenAI-compatible API. ⚠️ Open-source repo unmaintained. [GitHub](https://github.com/mckaywrigley/chatbot-ui) |
 | [NextChat (ChatGPT-Next-Web)](https://github.com/ChatGPTNextWeb/NextChat) | Lightweight cross-platform chat app. Self-host on Vercel or download official desktop/mobile clients. |
 
@@ -186,8 +186,8 @@ General-purpose terminal-based AI tools — chat, summarization, file operations
 | [Vibe CLI](https://github.com/mistralai/mistral-vibe) | 2025 | Mistral's open-source CLI coding agent. Free tier with Mistral Experiment tier (no credit card). Conversational iterative workflow. AGENTS.md support, skills system, voice mode, MCP. Apache 2.0. 4.6k stars. |
 | [Goose](https://goose-docs.ai/) | 2024 | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Originally by Block, now under the Agentic AI Foundation (AAIF) at the Linux Foundation. Desktop app + CLI + API. Rust-based. Apache 2.0. 50k stars. |
 | [MiMo Code](https://mimo.xiaomi.com/mimocode) | 2026 | Xiaomi's terminal AI tool with persistent memory, multi-agent orchestration, and 1M-token context. Free tier available. Supports mimo-v2.5-pro, mimo-v2.5, mimo-v2-omni models. Web UI in alpha. |
-| [Tuillem](https://github.com/seesee/tuillem) | 2025 | 3-pane terminal AI chat client written in Rust. Switch providers and models mid-conversation. Full markdown rendering, SQLite history with FTS5 search. 10 built-in themes. Plugin system. MIT. |
-| [Hai](https://github.com/aianyai/hai) | 2025 | Lightweight terminal AI agent. Run commands or ask questions. Supports OpenAI, Claude, Gemini, DeepSeek. Agent mode with auto shell execution, pipe support, predefined prompts. GPL-3.0. |
+| [Tuillem](https://github.com/seesee/tuillem) | 2025 | ⚠️ **Low adoption (3 stars).** 3-pane terminal AI chat client written in Rust. Switch providers and models mid-conversation. Full markdown rendering, SQLite history with FTS5 search. 10 built-in themes. Plugin system. MIT. |
+| [Hai](https://github.com/aianyai/hai) | 2025 | ⚠️ **Low adoption (1 star).** Lightweight terminal AI agent. Run commands or ask questions. Supports OpenAI, Claude, Gemini, DeepSeek. Agent mode with auto shell execution, pipe support, predefined prompts. GPL-3.0. |
 | [Freebuff](https://freebuff.com/) | — | An AI-powered CLI, supported by ads, with multi-agent orchestration. |
 
 ---
@@ -200,9 +200,9 @@ Free tools that integrate AI into your development workflow.
 
 | Name | Description |
 |------|-------------|
-| [Continue.dev](https://continue.dev/) | Open-source AI code assistant. Chat, autocomplete, and edit with any model. [GitHub](https://github.com/continuedev/continue) |
+| [Continue.dev](https://continue.dev/) | ⚠️ **Acquired by Cursor.** Open-source AI code assistant. Chat, autocomplete, and edit with any model. [GitHub](https://github.com/continuedev/continue) |
 | [Aider](https://aider.chat/) | AI pair programming in the terminal. Edits code in your local git repo. Supports GPT, Claude, and local models. [GitHub](https://github.com/Aider-AI/aider) |
-| [Devin Desktop (formerly Windsurf/Codeium)](https://windsurf.com/) | AI code editor with autocomplete, chat, and search. Now by Cognition. Free tier available. Pro $20/mo. |
+| [Devin Desktop (formerly Windsurf/Codeium)](https://devin.ai/desktop) | AI code editor with autocomplete, chat, and search. Now by Cognition. Free tier available. Pro $20/mo. |
 | [Tabby](https://www.tabbyml.com/) | Self-hosted AI coding assistant with no dependency on external services. [GitHub](https://github.com/TabbyML/tabby) |
 | [Cody (Sourcegraph)](https://sourcegraph.com/docs/cody) | Free tier for individuals. Chat, autocomplete, and commands with codebase context. |
 | [Llama Coder (Nutlope)](https://llamacoder.together.ai/) | Free AI code generation tool. Generate entire apps from prompts. |
@@ -212,7 +212,7 @@ Free tools that integrate AI into your development workflow.
 | [CodeBuff](https://www.codebuff.com/) | ⚠️ Paid only. CLI-based AI coding assistant that understands entire codebases. |
 | [Cline](https://cline.bot/) | Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline) |
 | [OpenHands](https://openhands.dev/) | Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/OpenHands/OpenHands) |
-| [Kodu (Claude Coder)](https://github.com/kodu-ai/claude-coder) | VS Code autonomous coding agent. Builds projects from scratch, handles complex tasks with natural language. |
+| [Kodu (Claude Coder)](https://github.com/kodu-ai/claude-coder) | ⚠️ **Unmaintained since Apr 2025.** VS Code autonomous coding agent. Builds projects from scratch, handles complex tasks with natural language. |
 | [Goose](https://goose-docs.ai/) | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Originally by Block, now under the Agentic AI Foundation (AAIF) at the Linux Foundation. [GitHub](https://github.com/aaif-goose/goose) |
 
 ---
@@ -256,13 +256,13 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 | [pgvector](https://github.com/pgvector/pgvector) | Vector similarity search inside PostgreSQL. Free if you already run Postgres. |
 | [LanceDB](https://lancedb.com/) | Developer-friendly vector database built on Lance columnar format. Runs locally, no server needed. [GitHub](https://github.com/lancedb/lancedb) |
 | [Weaviate](https://weaviate.io/) | Open-source vector database. Free sandbox tier on Weaviate Cloud. [GitHub](https://github.com/weaviate/weaviate) |
-| [Milvus (Zilliz)](https://milvus.io/) | Cloud-native vector database. Free tier on Zilliz Cloud or self-host. [GitHub](https://github.com/milvus-io/milvus) |
+| [Milvus (Zilliz)](https://milvus.io/) | ⚠️ **Site may be temporarily inaccessible.** Cloud-native vector database. Free tier on Zilliz Cloud or self-host. [GitHub](https://github.com/milvus-io/milvus) |
 | [txtai](https://neuml.github.io/txtai/) | AI-powered semantic search and RAG in a single Python package. [GitHub](https://github.com/neuml/txtai) |
-| [R2R (SciPhi)](https://github.com/SciPhi-AI/R2R) | Production-ready RAG engine with API, user management, and observability. |
+| [R2R (SciPhi)](https://github.com/SciPhi-AI/R2R) | ⚠️ **Unmaintained since Nov 2025.** Production-ready RAG engine with API, user management, and observability. |
 | [Docling (IBM)](https://www.docling.ai/) | Document understanding and conversion for RAG pipelines. Extracts PDFs, images, and more. [GitHub](https://github.com/docling-project/docling) |
 | [Unstructured.io](https://unstructured.io/) | Preprocessing toolkit for documents (PDF, HTML, Word) for RAG pipelines. Free tier available. |
 | [RAGFlow](https://github.com/infiniflow/ragflow) | Open-source RAG engine with deep document parsing, OCR, and knowledge base management. Supports多种 document formats. |
-| [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) | Python package bringing ColBERT-style late interaction retrieval to RAG pipelines. Works as retriever and reranker. Free and open-source. |
+| [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) | ⚠️ **Unmaintained since May 2025.** Python package bringing ColBERT-style late interaction retrieval to RAG pipelines. Works as retriever and reranker. Free and open-source. |
 | [Ragas](https://github.com/vibrantlabsai/ragas) | Open-source evaluation framework for RAG pipelines. Measures retrieval accuracy, answer relevance, and faithfulness. |
 
 ---
@@ -288,22 +288,22 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 | [TaskWeaver (Microsoft)](https://microsoft.github.io/TaskWeaver/) | ⚠️ **Archived.** Code-first agent framework for planning and executing complex tasks. [GitHub](https://github.com/microsoft/TaskWeaver) |
 | [Fazm](https://github.com/mediar-ai/fazm) | **Apr 2026.** Open-source local computer-use agent for macOS. Drives apps via accessibility APIs, model-agnostic, faster than screenshot-based agents. |
 | [Smolagents (Hugging Face)](https://github.com/huggingface/smolagents) | Minimalist agent library where agents "think in code." Lightweight, zero boilerplate. Supports code agents and tool-calling agents. |
-| [Swarms](https://github.com/kyegomez/swarms) | Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular. |
+| [Swarms](https://github.com/kyegomez/swarms) | ⚠️ **Unmaintained since Dec 2024.** Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular. |
 | [Letta (MemGPT)](https://github.com/letta-ai/letta) | Framework for long-term agent memory. Virtual memory management that pages data in/out of context like an OS. Persistent agents. |
 | [Griptape](https://github.com/griptape-ai/griptape) | Enterprise agent framework with strictly typed Pipelines, Workflows, and Agents. Structure-first, production-ready. |
-| [OpenAI Swarm](https://github.com/openai/swarm) | Experimental lightweight multi-agent orchestration. Uses Agents and Handoffs abstractions. Educational and minimalist. |
+| [OpenAI Swarm](https://github.com/openai/swarm) | ⚠️ **Replaced by OpenAI Agents SDK.** Experimental lightweight multi-agent orchestration. Uses Agents and Handoffs abstractions. Educational and minimalist. |
 | [Atomic Agents](https://github.com/Eigenwise/atomic-agents) | Framework inspired by Atomic Design. Compose agents from small, reusable, modular components. Testable and scalable. |
 | [PraisonAI](https://github.com/MervinPraison/PraisonAI) | Low-code multi-agent framework. Define agent roles, tasks, and flows via YAML configuration. Wraps underlying agent frameworks. |
 | [Cognee](https://github.com/topoteretes/cognee) | GraphRAG framework for agent knowledge management. Builds interconnected knowledge graphs from unstructured data. |
 | [AgentZero](https://github.com/agent0ai/agent-zero) | Self-healing autonomous agent with web UI. Manages own workflows, tool use, and environment. Self-evolving capabilities. |
-| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. |
+| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | ⚠️ **Unmaintained since Apr 2024.** Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. |
 | [ChatDev (OpenBMB)](https://github.com/OpenBMB/ChatDev) | Virtual software company driven by multi-agent collaboration. Follows waterfall model through design, coding, testing, and documentation. |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | The original autonomous agent experiment. Sets its own goals, iterates on tasks, and executes without continuous human input. Web browsing and file management. |
 | [Bee Agent Framework (IBM)](https://github.com/i-am-bee/beeai-framework) | Production-ready framework for building reliable AI agents in Python and TypeScript. Modular, with built-in observability and IBM research optimizations. |
 | [Eliza (elizaOS)](https://github.com/elizaOS/eliza) | Multi-platform agent framework for creating character-driven AI agents. Handles social media interaction, complex decision-making, and autonomous behavior across platforms. |
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | ⚠️ **Unmaintained.** Developer-focused autonomous agent platform with GUI. Built-in resource management, file handling, and multi-tasking for running agents at scale. |
 | [AgentVerse (OpenBMB)](https://github.com/OpenBMB/AgentVerse) | ⚠️ **Unmaintained.** Framework for building and evaluating multi-agent environments. Easily configure agent teams and measure collaborative performance. |
-| [Qwen-Agent (Alibaba)](https://github.com/QwenLM/Qwen-Agent) | Agent framework tightly integrated with the Qwen model family. Optimized for function calling, code execution, RAG, and tool use with Qwen models. |
+| [Qwen-Agent (Alibaba)](https://github.com/QwenLM/Qwen-Agent) | ⚠️ **Unmaintained since May 2025.** Agent framework tightly integrated with the Qwen model family. Optimized for function calling, code execution, RAG, and tool use with Qwen models. |
 | [AGiXT](https://github.com/Josh-XT/AGiXT) | Extensible modular AI agent automation platform. Plugin system for swapping LLMs, memory backends, and tools. Highly customizable agent workflows. |
 | [Deus](https://github.com/sliamh11/Deus) | Self-hosted personal AI assistant framework built around long-term memory, a self-improving evolution loop, and multi-agent orchestration. Backend-neutral (Claude Code, OpenAI/Codex, or fully local Ollama models), container-isolated agents, multi-channel (WhatsApp, Telegram, Slack, Discord, Gmail). MIT. |
 
